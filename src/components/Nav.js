@@ -1,9 +1,6 @@
-import React, {useState, Fragment} from 'react';
+import React, {Fragment} from 'react';
 import "./Styles.css";
 const Nav = () => {
-
-    
-
 
     return ( 
         <Fragment>
