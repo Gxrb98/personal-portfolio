@@ -5,9 +5,9 @@
 }
 
 :root{
-  --nav-bg-color: #000718; 
-  --text-link-color: #ffffff; 
+  --text-link-color: #000000; 
   --underline-link-color: #3c3096dc;
+  --sendMessageBtn-hoverColor: #ffffff;
 }
 .nav{
     list-style-type: none;
@@ -15,34 +15,65 @@
     width: 100vw;
     justify-content: center;
     column-gap: 1rem;
-    background-color: var(--nav-bg-color);
     padding: 0.5rem;
+    margin-top: 1rem;
+    position: fixed;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+.sendMessage{
+  color: var(--underline-link-color);
+  border: 2px solid var(--underline-link-color);
+  border-radius: 30px;
+  padding: 6px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1.3rem;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.nav li a{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1.3rem;
-    font-weight: 900;
-    font-size: 18px;
+
+.sendMessage:link{
+  color: var(--text-link-color);
+  text-decoration: none;
 }
 
-.nav li a:link{
+.sendMessage:visited{
+  color: var(--text-link-color);
+  text-decoration: none;
+}
+
+.sendMessage:hover{
+  color: var(--sendMessageBtn-hoverColor);
+  background-color: var(--underline-link-color);
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link:link{
     color: var(--text-link-color);
     text-decoration: none;
 }
-  
- .nav li a:visited {
+
+
+ .link:visited {
   border-bottom: 3px solid var(--underline-link-color);
   color: var(--text-link-color);
 
   }
   
-  .nav li a:hover {
+  .link:hover {
     border-bottom: 3px solid var(--underline-link-color);
     color: var(--text-link-color);
   }
   
-  .nav li a:active {
+  .link:active {
     border-bottom: 3px solid var(--underline-link-color);
     color: var(--text-link-color);
   }

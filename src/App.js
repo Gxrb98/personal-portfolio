@@ -11,7 +11,19 @@ function App() {
      <Nav/>
       <Main/>
         <FontAwesomeIcon icon={faLinkedin} style={{fontSize: "3em"}}/>
-        <FontAwesomeIcon icon={faGithub} style={{fontSize: "3em"}}/>
+        <FontAwesomeIcon icon={faGithub} style={{fontSize: "3em"}}/>  
+
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
+      <Main/>
     </Fragment>
   );
 }

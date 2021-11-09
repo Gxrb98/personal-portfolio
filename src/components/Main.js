@@ -1,13 +1,16 @@
 import React, {Fragment} from 'react';
-import "./Styles/NavStyles.css";
+import "./Styles/MainStyles.css";
 
 
 const Main = () => {
 
     return ( 
         <Fragment>
-              <h1>Gabriel Rodríguez</h1> 
-              <h2>Engineer/Dev</h2>
+              <div className="container">
+                <h1>System Engineer and Front-End Developer</h1> 
+                    <p>Hello, my name is Gabriel Rodriguez I love three things:</p>
+                    <p>Videogames, calisthenics and Coding</p>
+              </div>
         </Fragment>
  );
 }
