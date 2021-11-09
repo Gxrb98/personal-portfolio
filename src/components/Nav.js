@@ -7,15 +7,15 @@ const Nav = () => {
     useEffect(() => {
         
         const navControl = () =>{
-            
-        if(document.body.getBoundingClientRect().top >
+       //Guarda una nueva posicion de referencia mutable para ser evaluada     
+        if(document.body.getBoundingClientRect().y >
         positionRef.current){
-            console.log(positionRef.current + " UP")
+            positionRef.current = document.body.getBoundingClientRect().y; 
             setShow(true);
         }else{
+            
+            positionRef.current = document.body.getBoundingClientRect().y;
             setShow(false);
-            positionRef.current = document.body.getBoundingClientRect().top;
-            console.log(positionRef.current + "Down")
         }           
          }
 
