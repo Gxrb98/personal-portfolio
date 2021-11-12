@@ -2,6 +2,10 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+html {
+  scroll-behavior: smooth;
 }
 
 :root{
@@ -16,31 +20,35 @@
     justify-content: center;
     column-gap: 1rem;
     padding: 0.5rem;
-    margin-top: 1rem;
+    padding: 1em 0em;
     position: fixed;
+    margin: 0px;
     transition-timing-function: ease-in;
     transition: 0.5s;
+    background-color: white;
 }
 .sendMessage{
   color: var(--underline-link-color);
   border: 2px solid var(--underline-link-color);
   border-radius: 30px;
-  padding: 6px;
+  padding: 4.4px;
   font-family: 'Roboto', sans-serif;
   margin-top: 1.3rem;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
 .sendMessage:link{
   color: var(--text-link-color);
   text-decoration: none;
+  font-weight: 700;
 }
 
 .sendMessage:visited{
   color: var(--text-link-color);
   text-decoration: none;
+  font-weight: 700;
 }
 
 .sendMessage:hover{
@@ -52,13 +60,14 @@
 
 .link{
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
 }
 
 .link:link{
     color: var(--text-link-color);
     text-decoration: none;
+    font-weight: 700;
 }
 
 

@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px){
+    .aboutMe{
+        text-align: center;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 22px;
+        color: white;
+        background: #3c3096dc;
+        margin: 0px;
+        padding: 5rem 1rem 3rem 1rem;
+        }
+
+}
