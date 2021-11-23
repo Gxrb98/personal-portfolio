@@ -13,6 +13,8 @@ html {
   --underline-link-color: #3c3096dc;
   --sendMessageBtn-hoverColor: #ffffff;
 }
+
+@media screen and (max-width: 500px) {
 .nav{
     list-style-type: none;
     display: flex;
@@ -31,11 +33,11 @@ html {
   color: var(--underline-link-color);
   border: 2px solid var(--underline-link-color);
   border-radius: 30px;
-  padding: 4.4px;
+  padding: 4px;
   font-family: 'Roboto', sans-serif;
   margin-top: 1.3rem;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
@@ -60,7 +62,7 @@ html {
 
 .link{
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20x;
   font-weight: 700;
 }
 
@@ -86,3 +88,79 @@ html {
     border-bottom: 3px solid var(--underline-link-color);
     color: var(--text-link-color);
   }
+}
+
+@media screen and (max-width: 768px) {
+  .nav{
+    list-style-type: none;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 0.5rem;
+    padding: 1em 0em;
+    position: fixed;
+    margin: 0px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    background-color: white;
+}
+.sendMessage{
+  color: var(--underline-link-color);
+  border: 3px solid var(--underline-link-color);
+  border-radius: 30px;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1.3rem;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+
+.sendMessage:link{
+  color: var(--text-link-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sendMessage:visited{
+  color: var(--text-link-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sendMessage:hover{
+  color: var(--sendMessageBtn-hoverColor);
+  background-color: var(--underline-link-color);
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.link{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.link:link{
+    color: var(--text-link-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+ .link:visited {
+  border-bottom: 3px solid var(--underline-link-color);
+  color: var(--text-link-color);
+
+  }
+  
+  .link:hover {
+    border-bottom: 3px solid var(--underline-link-color);
+    color: var(--text-link-color);
+  }
+  
+  .link:active {
+    border-bottom: 3px solid var(--underline-link-color);
+    color: var(--text-link-color);
+}
+}

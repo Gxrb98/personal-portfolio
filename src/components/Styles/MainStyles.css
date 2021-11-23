@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 @media screen and (max-width: 500px) {
     .container{
@@ -12,7 +8,7 @@
     .main{
          font-family: 'Roboto', sans-serif;
          padding-top: 40%;
-         font-size: 22px;
+         font-size: 1rem;
          margin: 0px 25px;
          text-align: center;
          color: #030116;
@@ -25,3 +21,28 @@
         height: 40vh;
     }
     }
+
+
+    @media screen and (max-width: 768px) {
+        .container{
+            height: 100vh;
+    
+        }
+        .main{
+             font-family: 'Roboto', sans-serif;
+             padding-top: 40%;
+             font-size: 2.3rem;
+             margin: 0rem 3rem;
+             text-align: center;
+             color: #030116;
+        }
+        
+        .logos{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 40vh;
+            font-size: 5rem;
+        }
+        }
+    

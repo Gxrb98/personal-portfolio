@@ -1,0 +1,129 @@
+
+
+@media screen and (max-width: 500px){
+    .wrapper{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        padding: 4em 0em;
+    }   
+
+    header h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .textbox{
+        width: 90vw;
+        height: 2em;
+        font-size: 20px;
+        border: solid 3px #3c3096dc; 
+        border-radius: 10px;
+    }
+
+    #btn-submit{
+  color: #3c3096dc;
+  border: 2px solid #3c3096dc;
+  border-radius: 30px;
+  padding: 6px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1.3rem;
+  font-weight: 700;
+  font-size: 22px;
+  width: 90vw;
+    }
+
+    #btn-submit:hover{
+        color: var(--sendMessageBtn-hoverColor);
+        background-color: var(--underline-link-color);
+        transition: 0.3s;
+        font-weight: 700;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    label{
+        font-size: 22px;
+        color: gray;
+        margin: 0.5em;
+    }
+
+    textarea{
+        width: 90vw;
+        height: 35vh;
+        font-size: 20px;
+        border: none;
+        border: solid 3px #3c3096dc; 
+        border-radius: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        padding: 4rem 0em;
+    }   
+
+    header h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .textbox{
+        width: 90vw;
+        height: 2.8rem;
+        font-size: 2rem;
+        border: solid 3px #3c3096dc; 
+        border-radius: 10px;
+    }
+
+    #btn-submit{
+  color: #3c3096dc;
+  border: 2px solid #3c3096dc;
+  border-radius: 30px;
+  padding: 6px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2.5rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  width: 93vw;
+    }
+
+    #btn-submit:hover{
+        color: var(--sendMessageBtn-hoverColor);
+        background-color: var(--underline-link-color);
+        transition: 0.3s;
+        font-weight: 700;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    label{
+        font-size: 2.3rem;
+        color: gray;
+        margin: 0.5em;
+    }
+
+    textarea{
+        width: 90vw;
+        height: 35vh;
+        font-size: 2rem;
+        border: none;
+        border: solid 3px #3c3096dc; 
+        border-radius: 10px;
+    }
+}

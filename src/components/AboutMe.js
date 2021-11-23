@@ -9,12 +9,13 @@ const AboutMe = () => {
                 <h3 id="about-me">Hi, My I am Gabriel</h3>
                 <br/>
                 <p>I love coding... web coding mostly, but when I'm not coding I'm excercising or playing 
-                videogames. I have almost completed my degree in System Engineering and living in Ciudad 
-                Guayana, Venezuela, but, I'm willing to relocate to USA.</p>
+                videogames. I have 1 year experience as freelancer with react hooks, third party integrations, styling components,
+                react-router-dom. I have almost completed my degree in System Engineering.</p>
+                <p>I'm living in Ciudad Guayana, Venezuela, but willing to relocate to USA.</p>
                 <br/>
 
                 <FontAwesomeIcon icon={faLaptopCode} 
-                 style={{fontSize: "3rem", color: 'white'}}
+                 style={{fontSize: "3.5rem", color: 'white'}}
                    />
                    <br/>
                 <p>Tecnologies I work with:</p>
@@ -29,7 +30,7 @@ const AboutMe = () => {
                  </ul>
                  <br/>
                  <FontAwesomeIcon icon={faLanguage} 
-                style={{fontSize: "3rem", color: 'white'}}
+                style={{fontSize: "3.5rem", color: 'white'}}
                    />
                 <br/>
                 <p>Languages I know:</p>
