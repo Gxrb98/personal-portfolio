@@ -1,7 +1,7 @@
 
     .projects{
         height: 100%;
-        width: 100%;
+        width: 100vw;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
