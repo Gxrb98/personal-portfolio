@@ -2,7 +2,7 @@ import {Fragment} from "react";
 import Nav from './components/Nav';
 import Main from './components/Main';
 import AboutMe from './components/AboutMe';
-//import Projects from './components/Projects';
+import Projects from './components/Projects';
 import SendMessage from './components/SendMessage';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Nav/>
       <Main/>
       <AboutMe/>
-      {/*<Projects/>*/}  
+      <Projects/>
       <SendMessage/>
     </Fragment>
   );

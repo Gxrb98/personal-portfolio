@@ -12,7 +12,6 @@ const Main = () => {
                     <h2>System Engineer and Front-End Developer</h2> 
                     <br/><p>I code web applications with React, and I love what I do</p>
                 </div>
-
                 <div className='logos'>
                   <FontAwesomeIcon icon={faReact} 
                    style={{color: '#3c3096dc'}}
