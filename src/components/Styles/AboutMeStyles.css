@@ -1,3 +1,7 @@
+li{
+    list-style-type: none;
+}
+
 @media screen and (max-width: 500px){
     
     .about{
@@ -8,15 +12,16 @@
         background: #3c3096dc;
         margin: 0px;
         padding: 5rem 1rem 3rem 1rem;
-        }
-     li{
-         list-style: none;
-     }   
+        } 
 
 }
 
 @media screen and (min-width: 501px){
     .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         font-family: 'Roboto', 'sans-serif';
         font-size: 1.3rem;
@@ -25,6 +30,11 @@
         margin: 0rem;
         padding: 5rem 1rem 3rem 1rem;
         }
+
+    .text-center{
+        width: 40rem;
+
+    }
         
     li{
             list-style: none;

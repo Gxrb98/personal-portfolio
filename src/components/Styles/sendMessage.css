@@ -1,8 +1,18 @@
+input{
+    outline: none;
+}
 
+#btn-submit:hover{
+    color: var(--sendMessageBtn-hoverColor);
+    background-color: var(--underline-link-color);
+    transition: 0.3s;
+    font-weight: 700;
+    cursor: pointer;
+}
 
-
-
-
+.wrapper header{
+        margin-top: 5rem
+    }  
 @media screen and (max-width: 768px){
     .wrapper{
         width: 100%;
@@ -25,22 +35,15 @@
     }
 
     #btn-submit{
-  color: #3c3096dc;
-  border: 2px solid #3c3096dc;
-  border-radius: 30px;
-  padding: 6px;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 2.5rem;
-  font-weight: 700;
-  font-size: 1.5rem;
-  width: 10rem;
-    }
-
-    #btn-submit:hover{
-        color: var(--sendMessageBtn-hoverColor);
-        background-color: var(--underline-link-color);
-        transition: 0.3s;
+        color: #3c3096dc;
+        border: 2px solid #3c3096dc;
+        border-radius: 30px;
+        padding: 6px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 2.5rem;
         font-weight: 700;
+        font-size: 1.5rem;
+        width: 10rem;
     }
 
     .form{
@@ -99,13 +102,6 @@
   font-weight: 700;
   font-size: 1.3rem;
   width: 10rem;
-    }
-
-    #btn-submit:hover{
-        color: var(--sendMessageBtn-hoverColor);
-        background-color: var(--underline-link-color);
-        transition: 0.3s;
-        font-weight: 700;
     }
 
     .form{

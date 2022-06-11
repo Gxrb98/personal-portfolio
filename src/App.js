@@ -1,19 +1,19 @@
-import {Fragment} from "react";
-import Nav from './components/Nav';
-import Main from './components/Main';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import SendMessage from './components/SendMessage';
+import Home from './views/Home';
+import Contact from './views/Contact';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <Fragment>
-      <Nav/>
-      <Main/>
-      <AboutMe/>
-      <Projects/>
-      <SendMessage/>
-    </Fragment>
+    <Router>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route exact path='/contact' element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
