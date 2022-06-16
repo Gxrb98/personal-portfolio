@@ -21,13 +21,13 @@ const SendMessage = () => {
                     <h1>Thanks for taking the time to reach out</h1>
                 </header>
                 <form className='form' onSubmit={sendEmail}>
-                    <label htmlfor='name'>Name</label>
+                    <label htmlFor='name'>Name</label>
                     <input className='textbox' name='name' type='text' />
-                    <label htmlfor='email'>Email</label>
+                    <label htmlFor='email'>Email</label>
                     <input className='textbox' name='email' type='email' />
-                    <label htmlfor='subject'>Subject</label>
+                    <label htmlFor='subject'>Subject</label>
                     <input className='textbox' name='subject' type='text' />
-                    <label htmlfor='message'>Message</label>
+                    <label htmlFor='message'>Message</label>
                     <textarea className='textarea' name='message'>
                     </textarea>
                     <input type='submit' id='btn-submit' value='Submit' />
